@@ -1,16 +1,16 @@
-# My React Project
+# My Skills
 
-Hello!
-My name is Artem.
-I am 27 years old.
-I am a frontend developer.
+Hello!\
+My name is Artem.\
+I am 27 years old.\
+I am a frontend developer.\
 
 In this project I show my skills:
 
---React
---TypeScript
---JavaScript
---Styled Components
+--React\
+--TypeScript\
+--JavaScript\
+--Styled Components\
 
 ## Available Scripts
 
