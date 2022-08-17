@@ -44,7 +44,12 @@ const Todo = () => {
                         })
                     ) : (
                         <Plug>
-                            Привет! <br /> Я Todo List! <br /> Я написан на React, TypeScript, Styled Components 
+                            Todo List <br />
+                            <br/>
+                            Стек: React, TypeScript, Styled Components <br />
+                            <a target="_blank" href="https://github.com/Artem-Strekalov/MyReact/tree/master/src/Components/Todo">
+                                Код
+                            </a>
                         </Plug>
                     )}
                 </List>

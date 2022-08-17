@@ -8,7 +8,6 @@ export const Content = styled.div`
     width: 700px;
     height: 500px;
     padding: 20px 50px;
-    border: 1px solid black;
     border-radius: 10px;
     margin: auto;
     display: flex;
@@ -22,6 +21,7 @@ export const Input = styled.input`
     border-radius: 5px;
     outline: none;
     padding: 10px;
+    border: none;
 `
 export const Form = styled.form`
     display: flex;
@@ -30,14 +30,18 @@ export const Form = styled.form`
 export const Btn = styled.button`
     width: 70px;
     height: 50px;
-    background: yellow;
+    background: #fe6d73;
     border-radius: 5px;
     margin-left: 10px;
     outline: none;
+    border: none;
     cursor: pointer;
+    color: #fff;
     transition: background-color ease-in 0.2s;
     &:hover {
-        background: #bbbbeb;
+        color: #fe6d73;
+        border: 1px solid #fe6d73;
+        background: #fef9ef;
     }
 `
 export const List = styled.ul`
@@ -89,4 +93,8 @@ export const Plug = styled.div`
     padding: 20px;
     margin: auto;
     font-size: 16px;
+    a {
+        color: #fe6d73;
+        text-decoration: none;
+    }
 `
