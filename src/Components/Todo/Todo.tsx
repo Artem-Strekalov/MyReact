@@ -45,7 +45,7 @@ const Todo = () => {
                     ) : (
                         <Plug>
                             Todo List <br />
-                            <br/>
+                            <br />
                             Стек: React, TypeScript, Styled Components <br />
                             <a target="_blank" href="https://github.com/Artem-Strekalov/MyReact/tree/master/src/Components/Todo">
                                 Код
