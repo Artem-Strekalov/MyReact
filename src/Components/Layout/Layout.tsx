@@ -20,7 +20,6 @@ const Layout: React.FC = () => {
     const NavBlock = styled.div`
         margin-left: 40px;
         height: 100%;
-        width: 500px;
         display: flex;
     `
     const WrapperLink = styled.div`
@@ -101,6 +100,11 @@ const Layout: React.FC = () => {
                     <WrapperLink>
                         <CustomLink to="/forms">
                             <div>Forms</div>
+                        </CustomLink>
+                    </WrapperLink>
+                    <WrapperLink>
+                        <CustomLink to="/antd">
+                            <div>Ant Design</div>
                         </CustomLink>
                     </WrapperLink>
                 </NavBlock>
