@@ -1,4 +1,4 @@
-import { Link, NavLink, Outlet } from "react-router-dom"
+import { NavLink, Outlet } from "react-router-dom"
 import styled from "styled-components"
 const Layout: React.FC = () => {
     const Header = styled.div`
@@ -61,6 +61,9 @@ const Layout: React.FC = () => {
                 transition: opacity 0.3s;
             }
         }
+        &:hover {
+            color: #2cc185;
+        }
 
         &.active > div {
             display: flex;
@@ -68,6 +71,7 @@ const Layout: React.FC = () => {
             justify-content: center;
             position: relative;
             text-overflow: ellipsis;
+            color: #2cc185;
             &::after {
                 position: absolute;
                 bottom: 0;
@@ -86,6 +90,7 @@ const Layout: React.FC = () => {
         background: #fef9ef;
         display: flex;
         flex-direction: column;
+        align-items: center;
     `
     return (
         <Wrapper>
